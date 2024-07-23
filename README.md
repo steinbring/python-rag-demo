@@ -1,4 +1,4 @@
-# Python / LangChain / Ollama RAG Demo
+# Python / Ollama RAG Demo
 
 This is the code that we used in [the July 23 and August 23 The Scoop on Embedding: Teaching Large Language Models the “Flavor of the Day” at Culvers](https://events.nvisia.com/conference/be3edb0f-815e-48dd-9826-9b62f6fbc93a/schedule).  This is a command line interface (CLI) app but you can expand it to be a web service.  This should run on a Windows PC but these instructions assume that you are using MacOS.
 
