@@ -8,7 +8,7 @@ This is the code that we used in [the July 23 and August 23 The Scoop on Embeddi
 2. Pull down this project from [Github](https://github.com/steinbring)
 3. Navigate to the project folder in [iterm2](https://iterm2.com/) (or Terminal)
 4. Pull down llama3
-	1. `ollama pull llama3`
+	1. `ollama pull llama3:8b`
 5. Pull down nomic-embed-text
 	1. `ollama pull nomic-embed-text`
 4. Set up your Python virtual environment
