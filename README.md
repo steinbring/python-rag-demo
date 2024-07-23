@@ -12,7 +12,7 @@ This is the code that we used in [the July 23 and August 23 The Scoop on Embeddi
 5. Pull down nomic-embed-text
 	1. `ollama pull nomic-embed-text`
 4. Set up your Python virtual environment
-   	1. `brew install pip`
+   	1. `brew install pipx`
 	2. `pip install virtualenv` (if needed)
 	3. `python3 -m venv ragdemo`
 	4. `source ragdemo/bin/activate`
