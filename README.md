@@ -12,14 +12,14 @@ This is the code that we used in [the July 23 and August 23 The Scoop on Embeddi
 5. Pull down nomic-embed-text
 	1. `ollama pull nomic-embed-text`
 4. Set up your Python virtual environment
-   	1. `brew install pipx`
-	2. `pip install virtualenv` (if needed)
+   	1. `brew install pipx` (if needed)
+	2. `pipx install virtualenv` (if needed)
 	3. `python3 -m venv ragdemo`
 	4. `source ragdemo/bin/activate`
 6. Install ollama, chromadb, and requests
-	1. `pip install ollama`
-	2. `pip install requests`
-	3. `pip install chromadb`
+	1. `pipx install ollama`
+	2. `pipx install requests`
+	3. `pipx install chromadb`
 7. Run the app (making an actual query)
 	1. `python3 app.py "What is today's custard flavor at the Port Washington location?"`
 
