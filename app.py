@@ -19,7 +19,7 @@ for item in data:
     location = item['Location']
     address = item['Address']
     flavor = item['Flavor']
-    document = f"The flavors of the day for today at the {location} Culver's location at {address} is {flavor}."
+    document = f"The flavor of the day for today at the {location} Culver's location at {address} is {flavor}."
     documents.append(document)
 
 # Initialize the ChromaDB client and create a collection
